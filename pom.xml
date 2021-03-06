@@ -8,11 +8,9 @@
         <version>2.1.7.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.hzh</groupId>
-    <artifactId>service</artifactId>
+    <groupId>com.hzh.service</groupId>
+    <artifactId>AppGo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>service</name>
-    <description>Demo project for Spring Boot</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -22,6 +20,7 @@
         <mybatis-spring-boot-starter.version>1.3.1</mybatis-spring-boot-starter.version>
         <mybatis-plus-generator.version>3.1.1</mybatis-plus-generator.version>
         <common-net.version>3.1</common-net.version>
+        <swag2.version>2.8.0</swag2.version>
     </properties>
 
     <dependencies>
@@ -69,6 +68,25 @@
             <groupId>commons-net</groupId>
             <artifactId>commons-net</artifactId>
             <version>${common-net.version}</version>
+        </dependency>
+
+
+        <!-- swag -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>${swag2.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>${swag2.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
         </dependency>
     </dependencies>
 
