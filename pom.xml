@@ -19,7 +19,7 @@
         <mybatis-plus.version>3.1.0</mybatis-plus.version>
         <mybatis-spring-boot-starter.version>1.3.1</mybatis-spring-boot-starter.version>
         <mybatis-plus-generator.version>3.1.1</mybatis-plus-generator.version>
-        <common-net.version>3.1</common-net.version>
+        <common-net.version>3.9.0</common-net.version>
         <swag2.version>2.8.0</swag2.version>
     </properties>
 
